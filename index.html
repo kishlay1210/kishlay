@@ -179,13 +179,12 @@
 		<section id="three">
 			<h2>Get In Touch</h2>
 			<p>
-				Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-				magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-				vulputate lorem neque lorem ipsum dolor.
+				I'm ready to hear about your project. <br/>Don't hesitate to get in touch with me using the contact form.
 			</p>
 			<div class="row">
 				<div class="col-8 col-12-small">
-					<form method="post" action="#">
+					<form method="post" action="https://api.web3forms.com/submit">
+						<input type="hidden" name="access_key" value= "79a2539f-491b-4a93-a65c-bc7721108be7">
 						<div class="row gtr-uniform gtr-50">
 							<div class="col-6 col-12-xsmall">
 								<input type="text" name="name" id="name" placeholder="Name" />
@@ -197,10 +196,12 @@
 								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
 							</div>
 						</div>
-					</form>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
+						<ul class="actions">
+							<li><input type="submit" style="margin-top: 8%;" value="Send Message" /></li>
+						</ul>
+					
+				</form>
+				
 				</div>
 				<div class="col-4 col-12-small">
 					<ul class="labeled-icons">
@@ -222,16 +223,17 @@
 							<h3 class="icon solid fa-envelope">
 								<span class="label">Email</span>
 							</h3>
-							<a href="#">mr.kishlay@gmail.com</a>
+							mr.kishlay@gmail.com
+						</li>
+						<li>
+							<h3 class="fas fa-file-alt">
+							</h3>
+							<a href="https://drive.google.com/file/d/1PV5Du0wPu9dnyV0ZQSnTB3F_aTVP2PS2/view?usp=sharing">Download my Resume</a>
 						</li>
 
 						<!-- <a href="https://my.flightradar24.com/kishlay_kant"><img src="https://banners-my.flightradar24.com/kishlay_kant.png" alt="My Flightdiary.net profile" /></a> -->
 					</ul>
-					<a href="https://drive.google.com/file/d/1PV5Du0wPu9dnyV0ZQSnTB3F_aTVP2PS2/view?usp=sharing" download="Kishlay Resume">
-						<ul class="icons">
-							<li><input type="submit" value="Download my Resume" /></li>
-						</ul>
-					</a>
+					
 				</div>
 			</div>
 		</section>
@@ -267,6 +269,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/accesskey.js"></script>
 </body>
 
 </html>
